@@ -12,6 +12,17 @@ export function getEntries() {
     return input;
 }
 
+export function getServerEntries(){
+    const input = {};
+    const pattern = 'src/pages/*/page.js';
+    const files = fg.sync(pattern);
+    for (let file of files) {
+      const [name] = mm.capture(pattern, file);
+      input[name] = file;
+    }
+    return input;
+}
+
 export function getVirtualEntries(input){
     return Object.keys(input).reduce((entries, page) => {
         entries[page] = `
@@ -32,10 +43,11 @@ export function getVirtualInput(input){
 }
 
 export function getInput(){
-    const input = getEntries();
+    const clientInput = getEntries();
     return {
-        input,
-        virtualInput: getVirtualInput(input),
-        virtualEntries: getVirtualEntries(input)
+        input: getServerEntries(),
+        virtualInput: getVirtualInput(clientInput),
+        virtualEntries: getVirtualEntries(clientInput)
     }
 }
+

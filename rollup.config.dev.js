@@ -12,6 +12,7 @@ import {onwarn} from './infra/onwarn';
 
 const {input, virtualInput, virtualEntries} = getInput();
 
+
 const client = {
     input: virtualInput,
     output: {
