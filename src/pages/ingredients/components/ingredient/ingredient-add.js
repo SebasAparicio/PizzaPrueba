@@ -5,7 +5,7 @@ export function IngredientAdd(){
     return(
         <Form>
             <label>
-                Añadir un nombre
+                Añadir un nombregit
             <Input placeholder = "Nombre"/>
             </label>
             <label>
