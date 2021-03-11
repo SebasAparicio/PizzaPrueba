@@ -6,3 +6,4 @@ export default function About({foo}){
     return <Page><h1 className={css.about}>About {foo}</h1></Page>;
 }
 
+
