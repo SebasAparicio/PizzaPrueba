@@ -5,11 +5,11 @@ export function IngredientAdd(){
     return(
         <Form>
             <label>
-                Añadir un nombregit
+                Añadir ingrediente
             <Input placeholder = "Nombre"/>
             </label>
             <label>
-                Añadir un precio
+                Añadir precio
             <Input placeholder = "Precio"/>
             </label>
             <button>Crea un nuevo ingrediente</button>
