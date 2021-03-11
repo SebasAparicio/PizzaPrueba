@@ -1,11 +1,10 @@
-import Pizzas from './index';
 
+import Pizzas from './index';
+//import {PizzaService} from '../../services/pizza-service.js'
 
 Pizzas.route = '/';
-Pizzas.getData = async(params,query)=>{
-    const getPizzas = await fetch ('http://localhost:3000/pizzas');
-    return {
-        pizzas: await getPizzas.json()
+Pizzas.getData = async function (parms, query) {
+        return await PizzaService.getAll(pizzas)
     };   
-}
+
 export default Pizzas
