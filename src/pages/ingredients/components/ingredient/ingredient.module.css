@@ -1,0 +1,14 @@
+.article{
+    width: 31rem;
+    height: 1.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: solid 1px var(--green-500);
+    background-color: var(--white);
+}
+
+.ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
