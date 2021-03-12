@@ -5,7 +5,7 @@ export function Ingredient({ingredient}){
     return(
         <article className = {css.article}>
         <span>
-            {ingredient.name} {ingredient.price}
+            {ingredient.name} ({ingredient.price}€)
         </span>
       </article>
     )
