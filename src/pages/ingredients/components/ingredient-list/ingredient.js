@@ -1,10 +1,10 @@
 import React from 'react';
-import css from './ingredient.module.css';
+import css from './ingredient-list.module.css';
 
 export function Ingredient({ingredient}){
     return(
         
-        <h3>
+        <h3 className = {css.h3}>
             {ingredient.name} ({ingredient.price}€)
         </h3>
       
