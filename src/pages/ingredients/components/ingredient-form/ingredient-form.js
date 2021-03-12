@@ -2,7 +2,7 @@ import React from 'react';
 import{Input,Form} from '../../../../components';
 
 export function IngredientAdd(){
-    return(
+    return( //quitar label
         <Form>
             <label>
                 Añadir ingrediente

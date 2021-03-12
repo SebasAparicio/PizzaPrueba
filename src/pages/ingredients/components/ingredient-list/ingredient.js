@@ -4,9 +4,9 @@ import css from './ingredient.module.css';
 export function Ingredient({ingredient}){
     return(
         <article className = {css.article}>
-        <span>
+        <h3>
             {ingredient.name} ({ingredient.price}€)
-        </span>
+        </h3>
       </article>
     )
 }

@@ -3,7 +3,7 @@ import { Ingredient } from "./ingredient";
 import css from './ingredient.module.css';
 
 export function IngredientList({ ingredients }) {
-  return (
+  return ( //<section> y h2
       <ul className = {css.ul}>
         {ingredients.map((ingredient) => {
           return (
