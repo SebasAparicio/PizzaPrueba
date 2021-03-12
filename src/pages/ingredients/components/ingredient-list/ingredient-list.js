@@ -4,6 +4,8 @@ import css from './ingredient.module.css';
 
 export function IngredientList({ ingredients }) {
   return ( //<section> y h2
+    <section>
+      <h2>Todos los ingredientes</h2>
       <ul className = {css.ul}>
         {ingredients.map((ingredient) => {
           return (
@@ -13,6 +15,7 @@ export function IngredientList({ ingredients }) {
           );
         })}
       </ul>
+      </section>
 
   );
 }
