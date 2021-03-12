@@ -8,7 +8,7 @@ function Ingredients({ ingredients }) {
   return (
     <Page>
       <main className = {css.main}>
-        <h3 className = {css.h3}>Todos los ingredientes</h3>
+        <h1 className = "visually-hidden">Todos los ingredientes</h1>
         <IngredientList ingredients={ingredients} />
         <IngredientAdd />
       </main>
