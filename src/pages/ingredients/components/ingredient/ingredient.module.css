@@ -6,6 +6,15 @@
     border-radius: 10px;
     border: solid 1px var(--green-500);
     background-color: var(--white);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--gray-gray-500);
 }
 
 .ul{
