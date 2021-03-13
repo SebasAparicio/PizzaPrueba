@@ -1,0 +1,30 @@
+.form{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--green-500);
+}
+
+.input{
+    width: 514px;
+    margin:23px 0px;
+    padding: 12px 234.3px 11px 20px;
+    border-radius: 5px;
+    background-color: var(--white);
+}
+
+.label{
+    width: 1440px;
+    height: 1044px;
+    padding: 0 95px 0 0;
+    background-color: var(--grey-background);
+}
+
+.button{
+    width: 296px;
+    height: 46px;
+    flex-grow: 0;
+    margin: 40px 218px 0 0;
+    padding: 11px 31.4px 12px 39.2px;
+    border-radius: 5px;
+    background-color: var(--color-primary-light);
+}

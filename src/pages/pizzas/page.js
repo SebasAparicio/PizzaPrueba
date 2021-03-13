@@ -1,6 +1,5 @@
-
 import Pizzas from './index';
-//import {PizzaService} from '../../services/pizza-service.js'
+// import {PizzaService} from '../../services/pizza-service.js'
 
 Pizzas.route = '/';
 Pizzas.getData = async function (parms, query) {

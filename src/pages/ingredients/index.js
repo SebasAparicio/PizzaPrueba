@@ -10,7 +10,10 @@ function Ingredients({ ingredients }) {
       <main className = {css.main}>
         <h1 className = "visually-hidden">Todos los ingredientes</h1>
         <IngredientList ingredients={ingredients} />
+        <section>
+        <h1 className = "visually-hidden">Crea un nuevo ingrediente</h1>
         <IngredientAdd />
+        </section>
       </main>
     </Page>
   );
