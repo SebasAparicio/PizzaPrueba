@@ -8,7 +8,7 @@ export function IngredientAdd() {
     <Form>
 
       <Input className={css.input} label= "Añadir nombre" placeholder="Nombre" />
-      <Input className={css.input} label= "Añadir precio" placeholder="Precio" />
+      <Input className={css.input} label= "Añadir precio" placeholder="00.00,00€" />
 
       <Button className = {css.button} label ="Crea un nuevo ingrediente"></Button>
     </Form>
