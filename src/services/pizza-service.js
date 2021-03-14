@@ -1,6 +1,5 @@
 
-/*
-import {urlApi, authorize, api, resolveUrl} from '';
+import {urlApi, authorize, api, resolveUrl} from '../api';
 
 export class PizzaService{
     static async getAll(query){
@@ -18,5 +17,4 @@ export class PizzaService{
         }
     }
 }
-*/
 
