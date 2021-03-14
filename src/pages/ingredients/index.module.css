@@ -3,6 +3,7 @@
     margin: 0px 70px;
 }
 
+<<<<<<< HEAD
 .h2{
     width: 316px;
     height: 30px;
@@ -19,3 +20,13 @@
     color: var(--black);
 }
 
+=======
+.page{
+    background-color: var(--grey-background);
+}
+
+h2{
+    font-family: Quicksand;
+    font-weight: bold;
+}
+>>>>>>> f46d7eb8c69364268b09fa71c5487b03a8a2a208

@@ -4,17 +4,15 @@ import css from './ingredient-form.module.css';
 
 export function IngredientAdd() {
   return (
-    //quitar label
+    <section>
+    <h2>Crea un nuevo ingrediente</h2>
     <Form>
-      <h2>Crea un nuevo ingrediente</h2>
-      <section>
-      <label>Añade un nombre</label>
-      <Input type ="text" placeholder= "Nombre" />
-      <label>Añade un precio</label>
-      <Input type ="text" placeholder= "Precio" />
 
-      <Button label ="Crea un nuevo ingrediente"></Button>
-      </section>
+      <Input className={css.input} label= "Añadir nombre" placeholder="Nombre" />
+      <Input className={css.input} label= "Añadir precio" placeholder="00.00,00€" />
+
+      <Button className = {css.button} label ="Crea un nuevo ingrediente"></Button>
     </Form>
+    </section>
   );
 }

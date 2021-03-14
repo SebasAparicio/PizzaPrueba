@@ -2,7 +2,6 @@
     gap: var(--space-m);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 0px 0px 50px;
 }
 
 @media (max-width: 960px) {
@@ -15,4 +14,8 @@
     padding: 10px;
     border-radius: 5px;
     border: 1px solid var(--green-500);
+    font-family: Quicksand;
+    font-size: 1rem;
+    color: var(--grey);
 }
+
