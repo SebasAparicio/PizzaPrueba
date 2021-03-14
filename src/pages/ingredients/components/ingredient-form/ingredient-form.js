@@ -4,13 +4,13 @@ import css from './ingredient-form.module.css'
 export function IngredientAdd() {
   return (
     <section>
-    <h2 className={css.h2}>Crea un nuevo ingrediente</h2>
+    <h2>Crea un nuevo ingrediente</h2>
     <Form>
 
-      <Input label= "Añadir nombre" placeholder="Nombre" />
-      <Input label= "Añadir precio" placeholder="Precio" />
+      <Input className={css.input} label= "Añadir nombre" placeholder="Nombre" />
+      <Input className={css.input} label= "Añadir precio" placeholder="Precio" />
 
-      <Button label ="Crea un nuevo ingrediente"></Button>
+      <Button className = {css.but} label ="Crea un nuevo ingrediente"></Button>
     </Form>
     </section>
   );

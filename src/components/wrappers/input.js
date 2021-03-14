@@ -5,7 +5,7 @@ export function Input(props) {
   return (
     <div className={classname}>
       <label>
-        <div>{label}</div>
+        {label}
       </label>
       <input {...rest} />
     </div>
