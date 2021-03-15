@@ -1,2 +1,2 @@
 export * from './pizza/pizza';
-export * from './ingredients/ingredients';
+export * from './pizza-ingredients/pizza-ingredients';
