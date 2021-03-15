@@ -2,3 +2,35 @@
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
 }
+.search{
+    width: 30rem;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid var(--color-primary);
+    font-family: Quicksand;
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+.filter{
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid var(--color-primary);
+    font-family: Quicksand;
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+.arrange{
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+    border: 0.1rem solid var(--color-primary);
+    font-family: Quicksand;
+    font-size: 0.8rem;
+    color: var(--grey);
+}
+
+@media (max-width: 960px) {
+    .form {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import { PizzaCard } from "./pizza-card";
+import css from "./pizza-list.module.css"
 
 export function PizzaList({pizzas}) {
   return (
-    <h2>
-      <ul>
+      <ul className={css.list}>
         {pizzas.map((pizza)=>{
         return(
           <li key={pizza.id}>
@@ -13,6 +13,5 @@ export function PizzaList({pizzas}) {
         ) 
       })}
       </ul>
-    </h2>
   );
 }
