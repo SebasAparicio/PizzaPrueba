@@ -10,7 +10,7 @@ export class PizzaService{
         }
     }
     static async get(id){
-        const url = resolveUrl(`pizzas/$(id)`, urlApi, query);
+        const url = resolveUrl(`pizzas/${id}`, urlApi);
         const pizza = await api(url).get()
         return {
             pizza
