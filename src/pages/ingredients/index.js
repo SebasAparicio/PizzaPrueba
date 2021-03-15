@@ -4,6 +4,7 @@ import "../../styles";
 import { IngredientList } from "./components/ingredient-list/ingredient-list";
 import { IngredientAdd } from "./components/ingredient-form/ingredient-form";
 import css from './index.module.css'
+
 function Ingredients({ ingredients }) {
   return (
     <Page className = {css.page}>
