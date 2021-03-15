@@ -3,7 +3,6 @@ import { PizzaCard } from "./pizza-card";
 
 export function PizzaList({pizzas}) {
   return (
-    <h2>
       <ul>
         {pizzas.map((pizza)=>{
         return(
@@ -13,6 +12,5 @@ export function PizzaList({pizzas}) {
         ) 
       })}
       </ul>
-    </h2>
   );
 }
