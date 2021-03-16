@@ -4,33 +4,23 @@
     justify-content: space-between;
 }
 .search{
-    width: 49.2rem;
-    height: 2.87rem;
-    padding-left: 1rem;
-    border-radius: 0.3rem;
+    width: 45.5rem;
+    height: 2.58rem;
+    padding-left: 0.9rem;
+    border-radius: 0.27rem;
     border: 0.1rem solid var(--color-primary);
     font-family: Quicksand;
-    font-size: 1.43rem;
+    font-size: 1.28rem;
     color: var(--grey);
 }
-.filter{
-    height: 2.87rem;
-    width: 10.25rem;
-    padding-left: 1rem;
-    border-radius: 0.3rem;
+.filterAndArrange{
+    height: 2.58rem;
+    width: 9rem;
+    padding-left: 0.9rem;
+    border-radius: 0.27rem;
     border: 0.1rem solid var(--color-primary);
     font-family: Quicksand;
-    font-size: 1.43rem;
-    color: var(--grey);
-}
-.arrange{
-    height: 2.87rem;
-    width: 10.25rem;
-    padding-left: 1rem;
-    border-radius: 0.3rem;
-    border: 0.1rem solid var(--color-primary);
-    font-family: Quicksand;
-    font-size: 1.43rem;
+    font-size: 1.28rem;
     color: var(--grey);
 }
 
