@@ -4,7 +4,7 @@ import {Form} from '../wrappers/form.js';
 export function CartForm({pizza}) {
   return (
     <Form>
-      <input type="hidden" value={pizza} />
+      <input type="hidden" value={pizza.id} />
       <Button label="Añadir al carrito" />
     </Form>
   );

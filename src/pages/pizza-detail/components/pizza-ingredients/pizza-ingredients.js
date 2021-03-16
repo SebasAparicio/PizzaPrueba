@@ -6,7 +6,7 @@ export function PizzaIngredients({pizza}){
         <section>
             <h2>Ingredientes</h2>
             <IngredientList ingredients={ingredients}/>
-            <CartForm pizza = {pizza.id}/>
+            <CartForm pizza = {pizza}/>
         </section>
     );
 }

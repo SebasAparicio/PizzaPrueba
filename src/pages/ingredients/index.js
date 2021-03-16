@@ -9,7 +9,7 @@ function Ingredients({ ingredients }) {
     <Page className = {css.page}>
       <main className = {css.main}>
         <h1 className = "visually-hidden">Todos los ingredientes</h1>
-        <IngredientList ingredients={ingredients} />
+        <IngredientList ingredients={ingredients}/>
         <IngredientAdd />
       </main>
     </Page>
