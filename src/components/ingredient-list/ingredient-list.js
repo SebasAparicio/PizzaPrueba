@@ -4,7 +4,6 @@ import {Ingredient} from './ingredient.js'
 export function IngredientList({ ingredients }) {
     return (
       <section>
-        <h2>Todos los ingredientes</h2>
         <ul className={css.ul}>
           {ingredients.map((ingredient) => {
             return (

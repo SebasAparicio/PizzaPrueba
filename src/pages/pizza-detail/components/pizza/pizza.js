@@ -7,7 +7,7 @@ export function Pizza({ pizza }) {
   return (
     <section>
      <BreadCrumb items = {items}/>
-      <Image public_id = {pizza.image.public_id} width="16" height="9" small={400} big={800}/>
+      <Image public_id = {pizza.image.public_id} width="8" height="5" small={400} big={800}/>
       <h2>{name}</h2>
       <div>Descripcion de la pizza</div>
       <div>{price}€</div>
