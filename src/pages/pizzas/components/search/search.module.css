@@ -1,30 +1,36 @@
 .form{
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-columns: 4fr 1fr 1fr;
+    justify-content: space-between;
 }
 .search{
-    width: 30rem;
-    padding: 0.4rem;
+    width: 49.2rem;
+    height: 2.87rem;
+    padding-left: 1rem;
     border-radius: 0.3rem;
     border: 0.1rem solid var(--color-primary);
     font-family: Quicksand;
-    font-size: 0.8rem;
+    font-size: 1.43rem;
     color: var(--grey);
 }
 .filter{
-    padding: 0.4rem;
+    height: 2.87rem;
+    width: 10.25rem;
+    padding-left: 1rem;
     border-radius: 0.3rem;
     border: 0.1rem solid var(--color-primary);
     font-family: Quicksand;
-    font-size: 0.8rem;
+    font-size: 1.43rem;
     color: var(--grey);
 }
 .arrange{
-    padding: 0.4rem;
+    height: 2.87rem;
+    width: 10.25rem;
+    padding-left: 1rem;
     border-radius: 0.3rem;
     border: 0.1rem solid var(--color-primary);
     font-family: Quicksand;
-    font-size: 0.8rem;
+    font-size: 1.43rem;
     color: var(--grey);
 }
 
