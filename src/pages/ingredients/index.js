@@ -1,7 +1,6 @@
 import React from "react";
-import { Page } from "../../components";
+import { Page, IngredientList } from "../../components";
 import "../../styles";
-import { IngredientList } from "./components/ingredient-list/ingredient-list";
 import { IngredientAdd } from "./components/ingredient-form/ingredient-form";
 import css from './index.module.css'
 
