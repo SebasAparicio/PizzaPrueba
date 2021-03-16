@@ -1,6 +1,7 @@
 .list{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: space-between;
 }
 
 @media (max-width: 960px) {

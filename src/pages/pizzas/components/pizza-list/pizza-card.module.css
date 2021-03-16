@@ -1,47 +1,47 @@
 .card{
+    width: 21.56rem;
     padding: 1.5rem;
     margin-top: var(--space-xl);
-    margin-inline: var(--space-xl);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 0.3rem;
 }
 
 .h3{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.56rem;
     line-height: 0;
 }
 
 .h4{
-    font-size: 1.14rem;
+    font-size: 1.18rem;
     color: var(--grey)
 }
 
 .buttonContainer{
     display: flex;
-    justify-content: space-between;
+    gap:0.5rem
 }
 
 .buttonCarrito {
     width: 11rem;
-    height: 1.8rem;
+    height: 1.87rem;
     border: 0.1rem var(--color-primary-light);
     border-radius: 0.3rem;
     background-color: var(--color-primary-light);
     font-family: Quicksand;
-    font-size: 0.78rem;
+    font-size: 0.81rem;
     font-weight: 500;
     color: var(--white);
 }
 
 .buttonVer {
     width: 11rem;
-    height: 1.8rem;
+    height: 1.87rem;
     border: 0.1rem solid var(--color-primary-light);
     border-radius: 0.3rem;
     background-color: var(--white);
     font-family: Quicksand;
-    font-size: 0.78rem;
+    font-size: 0.81rem;
     font-weight: bold;
     color: var(--color-primary-light);
 }
