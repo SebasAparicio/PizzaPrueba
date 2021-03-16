@@ -1,5 +1,6 @@
 import React from "react";
-import {CloudinaryService} from '../../services/cloudinary-service'
+import {CloudinaryService} from '../../services/cloudinary-service';
+import css from './image.module.css';
 
 export function Image({public_id, small, big, width, height, className, ...rest}){
   const ar = (height / width) * 100;
@@ -9,9 +10,9 @@ export function Image({public_id, small, big, width, height, className, ...rest}
       jpegSmall: CloudinaryService.url(public_id, 'jpg', small),
       jpegMedium: CloudinaryService.url(public_id, 'jpg', big),
   };
-  const imageClass = className && `image ${className}` || 'image'
+  const imageClass = className && `${css.image} ${className}` || css.image
   return (
-  <div className="container" style={{'paddingTop':`${ar}%`}}>
+<div className={css.container} style={{'paddingTop':`${ar}%`}}>
       <picture>
           <source media="(max-width: 960px)" type="image/webp" srcSet={images.webpSmall}></source>
           <source type="image/webp" srcSet={images.webpMedium}></source>
@@ -19,6 +20,6 @@ export function Image({public_id, small, big, width, height, className, ...rest}
           <source type="image/jpeg" srcSet={images.jpegMedium}></source>
           <img src={images.jpegMedium} width={width} height={height} className={imageClass} {...rest}></img>
       </picture>
-  </div>
+</div>
   )
 }
