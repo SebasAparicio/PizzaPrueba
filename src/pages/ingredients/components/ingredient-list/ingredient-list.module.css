@@ -1,5 +1,5 @@
 .ul{
-    gap: var(--space-m);
+    gap: var(--space-s);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -11,11 +11,12 @@
 }
 
 .h3{
-    padding: 10px;
-    border-radius: 5px;
+    width: 32.12rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.3rem;
     border: 1px solid var(--green-500);
     font-family: Quicksand;
-    font-size: 1rem;
+    font-size: 1.43rem;
     color: var(--grey);
 }
 

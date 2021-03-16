@@ -14,4 +14,4 @@ export function PizzaCard({pizza}) {
     </article>
   );
 }
-
+//TO DO: Insert image

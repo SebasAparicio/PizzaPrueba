@@ -6,7 +6,7 @@ export function IngredientList({ ingredients }) {
   return (
     //<section> y h2
     <section>
-      <h2>Todos los ingredientes</h2>
+      <h2 style = {{marginBottom: 0}}>Todos los ingredientes</h2>
       <ul className={css.ul}>
         {ingredients.map((ingredient) => {
           return (
