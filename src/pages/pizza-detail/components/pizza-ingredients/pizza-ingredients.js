@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Button} from '../../../../components'
 export function PizzaIngredients({pizza}){
     const {ingredients} = pizza
     return(
@@ -14,6 +14,7 @@ export function PizzaIngredients({pizza}){
                     )
                 })}
             </ul>
+            <Button label = "Añadir al carrito"/>
         </section>
     );
 }
