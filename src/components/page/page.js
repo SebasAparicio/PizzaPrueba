@@ -18,9 +18,7 @@ export function Page({children}){
                     <div>Usuario</div>
                 </div>
             </div>
-            <main>
                {children}
-            </main>
         </div>
     )
 }
