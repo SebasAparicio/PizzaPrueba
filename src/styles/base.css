@@ -10,12 +10,14 @@ h1, .h1 {
     line-height: 2.625rem;
     margin-top: 1.3125rem;
     margin-bottom: 2.625rem;
+    font-weight: bold;
 }
 h2, .h2 {
     font-size: 1.75rem;
     line-height: 2.625rem;
     margin-top: 1.3125rem;
     margin-bottom: 1.3125rem;
+    font-weight: bold;
 }
 h3, .h3 {
     font-size: 1.3125rem;
