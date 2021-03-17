@@ -1,11 +1,11 @@
 import React from "react";
-import {Button} from '../../../../components';
+import {Button,Image} from '../../../../components';
 import css from "./pizza-card.module.css"
 
 export function PizzaCard({pizza}) {
   return (
     <article className={css.card}>
-      <h1>Image</h1>
+      <Image public_id = {pizza.image.public_id} width="8" height="5" small={400} big={800}/>
       <h3 className={css.h3}>{pizza.name}</h3>
       <h4 className={css.h4}>{pizza.price}€</h4>
       <h3 className={css.buttonContainer}>
@@ -14,4 +14,4 @@ export function PizzaCard({pizza}) {
     </article>
   );
 }
-//TO DO: Insert image
+
