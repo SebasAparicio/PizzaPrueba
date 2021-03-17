@@ -1,5 +1,5 @@
 import React from "react";
-import {Pizza, PizzaIngredients, PizzaComments} from './components';
+import {Pizza, PizzaIngredients, PizzaComments, CommentForm} from './components';
 import { Page } from "../../components";
 
 import "../../styles";
@@ -12,6 +12,7 @@ function PizzaDetail({pizza}) {
         <Pizza pizza = {pizza}/>
         <PizzaIngredients pizza = {pizza}/>
         <PizzaComments pizza = {pizza}/>
+        <CommentForm/>
       </main>
     </Page>
   );

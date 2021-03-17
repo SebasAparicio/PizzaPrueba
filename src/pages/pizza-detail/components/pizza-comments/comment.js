@@ -6,7 +6,7 @@ export function Comment ({comment}){
     return(
         <div>
             <div>{TimeService.shortDate(date)}</div>
-            <div>{rating}</div>
+            <div>Puntuacion {rating}</div>
             <div>{text}</div>
         </div>
     )
