@@ -2,6 +2,7 @@
     gap: var(--space-s);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin: var(--space-m) 0
 }
 
 @media (max-width: 960px) {
@@ -18,4 +19,5 @@
     font-family: Quicksand;
     font-size: 1.43rem;
     color: var(--grey);
+    background-color: var(--white);
 }

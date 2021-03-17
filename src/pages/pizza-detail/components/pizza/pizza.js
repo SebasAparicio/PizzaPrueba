@@ -19,8 +19,8 @@ export function Pizza({ pizza }) {
       />
       </div>
       <h2>{name}</h2>
-      <div>Descripcion de la pizza</div>
-      <div>{price}€</div>
+      <h3>Descripcion de la pizza</h3>
+      <h3>{price}€</h3>
     </section>
   );
 }

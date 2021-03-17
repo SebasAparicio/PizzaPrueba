@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, Input, Button, Select } from "../../../../components";
+import css from "./comment.module.css"
 
 export function CommentForm() {
   const ratings = [
@@ -7,11 +8,12 @@ export function CommentForm() {
     { value: 5, text: "Buena" },
     { value: 0, text: "Mala" },
   ];
+
   return (
     <Form>
-      <Select options={ratings} />
-      <Input placeholder="Añade un comentario" />
-      <Button label="Añadir" />
+      <Select options={ratings}/>
+      <Input placeholder="Añade un comentario" className={css.input}/>
+      <Button label="Añadir"/>
     </Form>
   );
 }

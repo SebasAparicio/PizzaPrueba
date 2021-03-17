@@ -2,5 +2,6 @@
     display: grid;
     width: 28.8rem;
     height: 17.15rem;
-    margin: var(--space-m)
+    margin: var(--space-l);
+    margin-left: 0;
 }
