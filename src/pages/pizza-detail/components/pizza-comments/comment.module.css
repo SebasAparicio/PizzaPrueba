@@ -1,0 +1,9 @@
+.date{
+    text-align: end;
+    color: var(--grey);   
+}
+.rating{
+    font-weight: bold;
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
