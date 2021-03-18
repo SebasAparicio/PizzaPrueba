@@ -13,9 +13,9 @@
     font-size: 1.28rem;
     color: var(--grey);
 }
-.filterAndArrange{
+.arrange{
     height: 2.58rem;
-    width: 9rem;
+    width: 21rem;
     padding-left: 0.9rem;
     border-radius: 0.27rem;
     border: 0.1rem solid var(--color-primary);
