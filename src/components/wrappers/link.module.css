@@ -1,0 +1,17 @@
+.link {
+    background-color: var(--white);
+    border: 0.1rem solid var(--color-primary-light);
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--color-primary-light);
+    text-decoration: none;
+    text-align: center;
+    padding: var(--space-xs);
+}
+
+.link:hover{
+    background-color: var(--color-primary);
+    color:var(--white);
+    border: 0.1rem solid var(--color-primary)
+}

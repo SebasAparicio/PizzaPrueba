@@ -8,7 +8,7 @@ export function CartForm({id,className}) {
   return (
     <Form>
       <input type="hidden" value={id} />
-      <Button className={buttonClass} label="Añadir al carrito" />
+      <Button className={buttonClass} label="AÑADIR AL CARRITO"/>
     </Form>
   );
 }

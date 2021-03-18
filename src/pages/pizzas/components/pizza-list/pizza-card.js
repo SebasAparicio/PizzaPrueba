@@ -10,7 +10,7 @@ export function PizzaCard({pizza}) {
       <h3 className={css.h3}>{pizza.name}</h3>
       <h4 className={css.h4}>{pizza.price}€</h4>
       <h3 className={css.buttonContainer}>
-        <CartForm className={css.buttonCarrito} id={pizza.id}/> <Link href={href} text="VER MAS"/>
+        <CartForm id={pizza.id}/> <Link href={href} text="VER MAS"/>
       </h3> 
     </article>
   );
