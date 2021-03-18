@@ -7,3 +7,4 @@ export * from './wrappers/image.js';
 export * from './cart-form/cart-form.js';
 export * from './ingredient-list/ingredient-list.js';
 export * from './wrappers/select.js';
+export * from './wrappers/link.js';

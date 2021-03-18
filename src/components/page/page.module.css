@@ -16,6 +16,12 @@
     font-weight: 500;
 }
 
+@media (max-width: 960px) {
+    .page {
+        grid-template-columns: 1fr ;
+    }
+}
+
 .link {
     color: var(--color-primary-text);
     text-decoration: none;

@@ -1,7 +1,5 @@
 .container{
+    width: 75%;
     display: grid;
-    width: 28.8rem;
-    height: 17.15rem;
-    margin: var(--space-l);
-    margin-left: 0;
-}
+    margin: auto;
+}   
