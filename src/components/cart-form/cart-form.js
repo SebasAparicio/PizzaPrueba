@@ -3,11 +3,12 @@ import {Button} from '../wrappers/button.js';
 import {Form} from '../wrappers/form.js';
 import css from './cart-form.module.css';
 
-export function CartForm({pizza}) {
+export function CartForm({id,className}) {
+  const buttonClass = className && `${css.button} ${className}` || css.button
   return (
     <Form>
-      <input type="hidden" value={pizza.id} />
-      <Button className={css.button} label="Añadir al carrito" />
+      <input type="hidden" value={id} />
+      <Button className={buttonClass} label="Añadir al carrito" />
     </Form>
   );
 }
