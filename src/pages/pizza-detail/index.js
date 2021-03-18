@@ -12,6 +12,7 @@ function PizzaDetail({pizza}) {
         <Pizza pizza = {pizza}/>
         <PizzaIngredients pizza = {pizza}/>
         <PizzaComments pizza = {pizza}/>
+        <h2>Añade tu comentario</h2>
         <CommentForm/>
       </main>
     </Page>

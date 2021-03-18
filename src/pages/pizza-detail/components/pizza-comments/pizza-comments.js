@@ -5,7 +5,7 @@ export function PizzaComments({pizza}){
     const {comments} = pizza
     return(
         <section>
-            <h2>Añade tu comentario</h2>
+            <h2>Comentarios</h2>
             <CommentList comments={comments}/>
         </section>
     );
