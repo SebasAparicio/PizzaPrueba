@@ -1,7 +1,6 @@
 import React from 'react';
 import css from './menu.module.css'
-import React from 'react';
-import css from './menu.module.css';
+
 export function Menu(){
     return (
         <div className={css.menu + ' on-big'} id="pizza-menu">
