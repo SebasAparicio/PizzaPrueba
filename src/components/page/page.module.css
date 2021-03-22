@@ -1,28 +1,7 @@
+:root {
+    --menu-width: 220px;
+}
 .page {
     display: grid;
-    grid-template-columns: 13.75rem 1fr;
-}
-
-.menu {
-    background-color: var(--color-primary);
-    color: var(--color-primary-text);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: var(--space-l);
-    box-sizing: border-box;
-    font-size: 1.4rem;
-    font-weight: 500;
-}
-
-@media (max-width: 960px) {
-    .page {
-        grid-template-columns: 1fr ;
-    }
-}
-
-.link {
-    color: var(--color-primary-text);
-    text-decoration: none;
+    grid-template-columns: var(--menu-width) 1fr;
 }

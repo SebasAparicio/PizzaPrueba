@@ -22,3 +22,6 @@
 .bold{
   font-weight: bold;
 }
+.block-scroll{
+  overflow: hidden;
+}

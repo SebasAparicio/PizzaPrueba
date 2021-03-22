@@ -1,3 +1,4 @@
+import {spinner} from './spinner';
 export function before(page){
 return `
     <!DOCTYPE html>
@@ -8,8 +9,10 @@ return `
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Loading...</title>
             <link rel="modulepreload" href="/dist/${page}.js" />
+            <style>${spinner()}</style>
         </head>
         <body>
+            <div id="spinner"></div>
             <div id="app">`;
 }
 
